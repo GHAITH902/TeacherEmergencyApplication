@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033433772376",
+    "project_id": "emergency-application--teacher",
+    "storage_bucket": "emergency-application--teacher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033433772376:android:98b65d49cc1930c6ee352d",
+        "android_client_info": {
+          "package_name": "com.ghaithfattoum.teacheremergencyapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2Dof4njbtOZN8AjH8cukFGXYtZQkL2Do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

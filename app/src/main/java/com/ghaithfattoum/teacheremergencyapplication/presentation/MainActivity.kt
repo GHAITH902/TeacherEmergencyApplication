@@ -55,6 +55,8 @@ class MainActivity : AppCompatActivity() {
         binding.sendNotification.setOnClickListener {
             viewModel.sendNotification(
                 accessTokenFileInputStream = getAccessTokenFileInputStream(),
+                title = binding.editTextTitle.text.toString(),
+                message = binding.editTextMessage.text.toString()
             )
         }
     }
@@ -99,9 +101,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-fun main() {
-    // Project Title: Lock-Down Notification App
-    if ("__YOU ARE__" == "__Interested in project__") {
-        println("Welcome to the Lock-Down Notification App!")
-    }
-}

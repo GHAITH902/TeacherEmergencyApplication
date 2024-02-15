@@ -22,10 +22,11 @@ class MainViewModel : ViewModel() {
     private val _event = MutableLiveData<UiEvent>()
     internal val event: LiveData<UiEvent> = _event
 
-    internal fun sendNotification(accessTokenFileInputStream: InputStream) {
-        val title = "Warning!!!"
-        val message = "Please leave the building"
-
+    internal fun sendNotification(
+        accessTokenFileInputStream: InputStream,
+        title: String,
+        message: String
+    ) {
         FcmNotification(
             message = FcmMessage(
                 topic = TOPIC,
